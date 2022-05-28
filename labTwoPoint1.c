@@ -1,9 +1,9 @@
 #include <stdio.h>
-/*#include <sys/types.h>*/
+//#include <sys/types.h>
 #include <unistd.h>
 
 int main(){
-fork();
+//fork();
 printf( " Hello Word\n" );
 return 0;
 }
