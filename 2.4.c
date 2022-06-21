@@ -25,7 +25,7 @@ printf( " Child process = (What is your name)");
 
 void ParentTask(){
 
-printf( "Job is done");
+printf( "Job is done\n");
 
 }
 
@@ -41,12 +41,16 @@ int main(void)
     {
        childTask();
     }
+
+    else
+      wait(NULL);
 }
-    
-       wait(NULL);
+   
         ParentTask();
 
- return 0;
+ return EXIT_SUCCESS;
 }
+
+
 
 
