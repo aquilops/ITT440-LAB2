@@ -37,3 +37,4 @@ void sigint_handler( int sig)
 printf ("jangan kacau saya!\n");
 }
 
+// hello saja nk push sbb tadi tak puh awak pastu hilang
